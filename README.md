@@ -72,14 +72,14 @@ If you'd like to contribute to this project, feel free to fork the repository an
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-### Key Sections:
-- **Overview**: Brief description of the project and its purpose.
-- **Features**: Key functionalities of the project.
-- **Technologies Used**: A list of technologies used in the project (HTML, CSS, JavaScript, localStorage).
-- **How to Run**: Instructions to clone and run the project locally.
-- **Usage**: Detailed usage instructions for adding/editing rows, moving, deleting, saving, and refreshing data.
-- **Example Data**: Example table with chemical data.
-- **Contributing**: Guidelines for contributing to the project.
-- **License**: The type of open-source license for the project.
+ Key Sections:
+- Overview: Brief description of the project and its purpose.
+- Features: Key functionalities of the project.
+- Technologies Used: A list of technologies used in the project (HTML, CSS, JavaScript, localStorage).
+- How to Run: Instructions to clone and run the project locally.
+- Usage: Detailed usage instructions for adding/editing rows, moving, deleting, saving, and refreshing data.
+- Example Data: Example table with chemical data.
+- Contributing: Guidelines for contributing to the project.
+- License: The type of open-source license for the project.
 
 You can modify this file to include specific details for your project, like your GitHub username or license type if different.
