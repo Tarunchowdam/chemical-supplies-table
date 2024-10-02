@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Supplies Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="table-container">
+        <div class="header">
+            <h1>Chemical Supplies</h1>
+
+            <!-- Button container at the top-right -->
+            <div class="buttons">
+                <button onclick="addRow()">➕ </button>
+                <button onclick="moveRowUp()">⬆️ </button>
+                <button onclick="moveRowDown()">⬇️ </button>
+                <button onclick="deleteRow()">🗑️ </button>
+                <button onclick="saveData()">🔄 save </button>
+            </div>
+        </div>
+
+        <table id="chemicalTable">
+            <thead>
+                <tr>
+                    <th>✓</th>
+                    <th>Chemical Name</th>
+                    <th>Vendor</th>
+                    <th>Density <br> (g/m³)</th>
+                    <th>Viscosity <br> (m²/s)</th>
+                    <th>Packaging</th>
+                    <th>Pack Size</th>
+                    <th>Unit</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Dynamic Rows -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
